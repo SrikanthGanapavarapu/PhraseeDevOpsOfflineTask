@@ -9,7 +9,7 @@
 
 #### Usage
 
-```
+```hcl
 module "task1" {
   source = "../resource/Task1/"
 
@@ -32,7 +32,7 @@ module "task1" {
 
 #### Usage:
 
-```
+```hcl
 module "task2" {
   source = "../resource/Task2/"
 

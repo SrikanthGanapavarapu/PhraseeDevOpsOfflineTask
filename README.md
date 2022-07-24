@@ -9,6 +9,7 @@
 
 #### Usage
 
+```
 module "task1" {
   source = "../resource/Task1/"
 
@@ -21,6 +22,7 @@ module "task1" {
   s3_bucket_name = "phrasee-module1-bkt"	## s3_bucket_name
 
 }
+```
 
 ## Module 2:
 
@@ -30,6 +32,7 @@ module "task1" {
 
 #### Usage:
 
+```
 module "task2" {
   source = "../resource/Task2/"
 
@@ -44,3 +47,4 @@ module "task2" {
   public_subnet_cidr  = "192.168.0.0/24"	#Publlic Subnet CIDR
   private_subnet_cidr = "192.168.1.0/24"	#Private Subnet CIDR
 }
+```

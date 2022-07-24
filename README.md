@@ -13,7 +13,7 @@ module "task1" {
   source = "../resource/Task1/"
 
   aws_id     = ""   ## Add aws_id
-  aws_key    = ""   ##Add aws_key
+  aws_key    = ""   ## Add aws_key
   aws_region = ""   ## Add aws_region
 
   instance_type  = "t2.small"			## Instance Type
@@ -26,7 +26,7 @@ module "task1" {
 
 1. Create VPC, Subnet, Internet Gateway, Route Table, Security Groups
 2. Launch Bastion Host in Public Subnet
-3. Launch Private EC2 instance and ssh fonly from Bastion 
+3. Launch Private EC2 instance and ssh only from Bastion 
 
 ##Usage:
 

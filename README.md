@@ -1,13 +1,13 @@
 # PhraseeDevOpsOfflineTask
 
-#Module 1: 
+## Module 1: 
 
 1. Creation of S3 bucket and upload index.html file
 2. Launch EC2 Instance in Public subnet and launch Nginx Docker image 
 3. IAM Policy & Assure Role to access S3 & Cloudwatch from EC2 Instance 
 4. Create Cloudwatch Dashboard and Logs
 
-##Usage
+#### Usage
 
 module "task1" {
   source = "../resource/Task1/"
@@ -22,13 +22,13 @@ module "task1" {
 
 }
 
-#Module 2:
+## Module 2:
 
 1. Create VPC, Subnet, Internet Gateway, Route Table, Security Groups
 2. Launch Bastion Host in Public Subnet
 3. Launch Private EC2 instance and ssh only from Bastion 
 
-##Usage:
+#### Usage:
 
 module "task2" {
   source = "../resource/Task2/"

@@ -14,16 +14,12 @@ variable "key_name" {
 
 variable "instance_type" {
   default = "t2.micro"
-  
 }
 
 variable "aws_id" {
-  default = "AKIAYVLSG3R736SQENHD"
 }
 variable "aws_key" {
-  default = "qBPz5enHCBBilGML17zaD1WVfnHbzoRfU7y3MOl2"
 }
-variable "aws_region" {
-  default = "us-east-1"
+variable "aws_region" 
 }
 
